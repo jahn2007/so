@@ -1,18 +1,10 @@
-<!-- 
-最后修改：ZhangDi
-https://github.com/616620131/Simple-Search-Page 
-时间:2020-04-01 版权所有，请勿删除 
-二次修改：Skye 时间:2020-04-27
-有任何问题 http://wpa.qq.com/msgrd?v=3&uin=1945000000&site=qq&menu=yes
-增加了多个使用网站搜索，由于篇幅有限为了美观很抱歉删除了原作者的foot，请保留作者原信息。
--->
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="Cache-Control" content="no-siteapp">
-		<title>简洁搜索 - 极简多引擎主页</title>
+		<title>简洁搜索</title>
 		<meta name="author" content="ZhangDi" />
 		<meta name="description" content="极简多引擎主页，提供聚合搜索框和网址导航。" />
 		<meta name="keywords" content="简洁搜索,极简搜索,简洁导航" />
@@ -36,7 +28,7 @@ https://github.com/616620131/Simple-Search-Page
 		<link href="css/style.min.css" rel="stylesheet">
 		<script src="https://at.alicdn.com/t/font_1592760_frznr49dvo.js"></script>
 		<script src="https://at.alicdn.com/t/font_1592665_8irfenx66gf.js"></script>
-		<script src="https://unpkg.com/jquery/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
 		<script src="js/sou.min.js"></script>
 		<link rel="shortcut icon" href="img/logo.ico" />
 		<link rel="stylesheet" href="css/search.min.css" />
@@ -53,7 +45,7 @@ https://github.com/616620131/Simple-Search-Page
 		<!-- 谷歌广告 -->
 		<!-- <script data-ad-client="ca-pub-7807646905917899" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
 	</head>
-	<body background="http://sogou.cf:88/bing.php">
+	<body>
 		<!-- <div id="menu"><i></i></div> -->
 		<div class="list closed">
 			<ul>
@@ -62,6 +54,7 @@ https://github.com/616620131/Simple-Search-Page
 		<div id="content">
 			<div class="con">
 				<div class="shlogo">
+					
 					<div class="logo-text embed">简洁&nbsp;&nbsp;搜索</div>
 				</div>
 				<section class="sousuo">
@@ -82,7 +75,7 @@ https://github.com/616620131/Simple-Search-Page
 						<!-- 搜索引擎 -->
 						<div class="search-engine" style="display: none;">
 							<div class="search-engine-head">
-								<strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+								<strong class="search-engine-tit"><li>Telegram白嫖频道:<a href="http://t.me/freebaipiao" target="_blank"><font color=blue> https://t.me/freebaipiao</font></a></li><br>选择您的默认搜索引擎：</strong>
 								<div class="search-engine-tool">
 									搜索热词：<label class="switch">
 										<input id="hot-btn" type="checkbox">
@@ -100,8 +93,3 @@ https://github.com/616620131/Simple-Search-Page
 	<script src=" ./js/search.min.js"> </script>
 	<script src=" ./js/jsonload.js"> </script>
 </html>
-<!-- 
-最后修改：ZhangDi
-https://github.com/616620131/Simple-Search-Page 
-时间:2020-04-01 版权所有，请勿删除 
--->
